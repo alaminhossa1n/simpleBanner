@@ -1,0 +1,94 @@
+:root {
+  --primaryColor: #116E63;
+  --secondaryColor: #F2A227;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #EAEBEF;
+}
+
+/* navbar  */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* logo part  */
+
+.logo-part {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-part img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-part p {
+  color: var(--primaryColor);
+  font-weight: 700;
+  font-size: x-large;
+
+}
+
+/* nav link part  */
+.nav-links {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 20px;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+/* sign in part  */
+#auth {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#signIn{
+color: white;
+background-color: var(--primaryColor);
+padding: 10px 30px;
+border-radius: 20px;
+}
+
+
+/* containers */
+.main-container {
+  width: 1320px;
+  border: 1px solid red;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #F1F0F5;
+}
+
+.second-container {
+  width: 1280px;
+  border: 1px solid red;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.banner {
+  width: 1180px;
+  border: 1px solid red;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #F6F7FB;
+}
