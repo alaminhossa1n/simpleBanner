@@ -8,14 +8,14 @@ body {
   background-color: #EAEBEF;
 }
 
-/* navbar  */
+/*........................... navbar................  */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* logo part  */
+/* .................logo part....................  */
 
 .logo-part {
   display: flex;
@@ -35,7 +35,7 @@ body {
 
 }
 
-/* nav link part  */
+/* .......................nav link part.......................  */
 .nav-links {
   display: flex;
   list-style: none;
@@ -57,12 +57,14 @@ body {
   gap: 10px;
 }
 
-#signIn{
-color: white;
-background-color: var(--primaryColor);
-padding: 10px 30px;
-border-radius: 20px;
+#signIn {
+  color: white;
+  background-color: var(--primaryColor);
+  padding: 10px 30px;
+  border-radius: 20px;
 }
+
+
 
 
 /* containers */
@@ -88,7 +90,35 @@ border-radius: 20px;
   width: 1180px;
   border: 1px solid red;
   margin: 0px auto;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
   background-color: #F6F7FB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#banner-content {
+  width: 50%;
+}
+#banner-content h1 {
+  font-size: 3rem;
+}
+#banner-content h2 {
+  font-size: 3rem;
+  color: white;
+  background-color: var(--secondaryColor);
+  display: inline;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+#banner-content p {
+}
+
+#banner-img {
+  width: 50%;
+}
+
+#banner-img img {
+width: 100%;
 }

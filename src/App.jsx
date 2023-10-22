@@ -5,7 +5,7 @@ function App() {
     <div className="main-container">
 
       <div className="second-container">
-
+        {/* navbar  */}
         <nav className="navbar">
 
           <div className="logo-part">
@@ -49,7 +49,14 @@ function App() {
         </nav>
 
         <div className="banner">
-          banner
+          <div id="banner-content">
+            <h1>Get where you're going faster with</h1>
+            <h2>Grapeslab</h2>
+            <p>Expand your skills in development, testing, analysis, and designing.</p>
+          </div>
+          <div id="banner-img">
+            <img src="./public/banner.png" alt="" />
+          </div>
         </div>
 
 
