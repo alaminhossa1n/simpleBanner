@@ -1,3 +1,4 @@
+import { FaPlay, FaSearch } from 'react-icons/fa';
 
 function App() {
 
@@ -42,21 +43,32 @@ function App() {
             </div>
 
             <div>
-              <p>Icon</p>
+              <p id='search-icon'><FaSearch></FaSearch></p>
             </div>
           </div>
 
         </nav>
 
         <div className="banner">
+
           <div id="banner-content">
             <h1>Get where you're going faster with</h1>
             <h2>Grapeslab</h2>
             <p>Expand your skills in development, testing, analysis, and designing.</p>
+
+            <div id="button-div">
+              <button id="startNowBtn">Start Now</button>
+              <div id='play-div'>
+                <p id='video-icon'><FaPlay></FaPlay></p>
+                <p>Watch Video</p>
+              </div>
+            </div>
           </div>
+
           <div id="banner-img">
             <img src="./public/banner.png" alt="" />
           </div>
+
         </div>
 
 
