@@ -52,9 +52,11 @@ function App() {
         <div className="banner">
 
           <div id="banner-content">
-            <h1>Get where you're going faster with</h1>
-            <h2>Grapeslab</h2>
-            <p>Expand your skills in development, testing, analysis, and designing.</p>
+            <div>
+              <h1>Get where you're going faster with</h1>
+              <h2>Grapeslab</h2>
+              <p style={{marginTop: '40px', color: 'gray'}}>Expand your skills in development, testing, analysis, and designing.</p>
+            </div>
 
             <div id="button-div">
               <button id="startNowBtn">Start Now</button>
@@ -63,10 +65,27 @@ function App() {
                 <p>Watch Video</p>
               </div>
             </div>
+
+            <div id='insights'>
+              <div>
+                <h3>20M</h3>
+                <p>Views</p>
+              </div>
+
+              <div>
+                <h3>50K</h3>
+                <p>Students</p>
+              </div>
+
+              <div>
+                <h3>4K</h3>
+                <p>Certificates</p>
+              </div>
+            </div>
           </div>
 
           <div id="banner-img">
-            <img src="./public/banner.png" alt="" />
+            <img src="./banner.png" alt="" />
           </div>
 
         </div>

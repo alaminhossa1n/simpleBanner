@@ -64,12 +64,12 @@ body {
   border-radius: 20px;
 }
 
-#search-icon{
+#search-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-color:#E4F0ED ;
+  background-color: #E4F0ED;
   color: green;
   border-radius: 50%;
   width: 20px;
@@ -127,10 +127,6 @@ body {
 
 }
 
-#banner-content p {
-  margin: 40px 0px;
-}
-
 #button-div {
   display: flex;
   align-items: center;
@@ -146,22 +142,34 @@ body {
   border: none;
 }
 
-#play-div{
+#play-div {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-#video-icon{
+#video-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-color:white ;
+  background-color: white;
   color: var(--secondaryColor);
   border-radius: 50%;
   width: 20px;
   height: 20px;
+}
+
+#insights {
+  display: flex;
+  gap: 20px;
+}
+
+#insights div h3{
+  color: var(--primaryColor);
+}
+#insights div p{
+  color: gray
 }
 
 #banner-img {
