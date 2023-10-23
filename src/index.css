@@ -78,8 +78,8 @@ body {
 
 /* containers */
 .main-container {
+  min-height: 100%;
   max-width: 1320px;
-  border: 1px solid red;
   margin: 0px auto;
   padding: 10px;
   border-radius: 10px;
@@ -88,7 +88,6 @@ body {
 
 .second-container {
   max-width: 1280px;
-  border: 1px solid red;
   margin: 0px auto;
   padding: 10px;
   border-radius: 10px;
@@ -97,7 +96,6 @@ body {
 
 .banner {
   max-width: 1180px;
-  border: 1px solid red;
   margin: 0px auto;
   padding: 20px;
   border-radius: 10px;
